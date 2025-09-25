@@ -52,7 +52,7 @@
 			<td><%=rs.getString("ename")%></td>
 			<td><%=rs.getString("job")%></td>
 			<td><%=rs.getInt("mgr")%></td>
-			<td><%=rs.getTimestamp("hiredate")%></td>
+			<td><%=rs.getString("hiredate")%></td>
 			<td><%=rs.getInt("sal")%></td>
 			<td><%= rs.getObject("comm") == null ? "NULL" : rs.getInt("comm") %></td>
 <%-- 			<td><%=rs.getInt("comm")%></td> --%> 
